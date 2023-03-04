@@ -52,5 +52,5 @@ object[] UnivCopyArreyStandartTools(params object[] inputArr)
 
 int[] testArr = Gen1DArray(40,1,50);
 Print1DArr(testArr);
-int[] testArrNew = (int[])UnivCopyArreyStandartTools(testArr);
-Print1DArr(testArrNew);
+//int[] testArrNew = (int[])UnivCopyArreyStandartTools(testArr);
+//Print1DArr(testArrNew);
