@@ -3,7 +3,7 @@
 //Начальный вариант
 
 Console.Write("Введите трёх или более значное число: ");
-string num = Console.ReadLine();
+string num = Console.ReadLine()?? "0";
 // Превращаем его в массив
 DateTime d1 = DateTime.Now;
 char[] arr = num.ToCharArray();

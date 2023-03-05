@@ -13,16 +13,16 @@ void PrintData(string msg)
 }
 
 //Метод перевода числа в двоичную систему
-string DecToBin(int num)
-{
-      string res = string.Empty;
-      while (num > 0)
-      {
-            res = num % 2 + res;
-            num = num / 2;
-      }
-      return res;
-}
+// string DecToBin(int num)
+// {
+//       string res = string.Empty;
+//       while (num > 0)
+//       {
+//             res = num % 2 + res;
+//             num = num / 2;
+//       }
+//       return res;
+// }
 
 //Метод конвертации числа
 string DecToBinNativ(int num, int base1)

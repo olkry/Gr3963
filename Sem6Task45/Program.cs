@@ -43,12 +43,12 @@ void Print1DArr(int[] arr)
 // }
 
 //Универсальный Метод копирования массива терез встроенные функции
-object[] UnivCopyArreyStandartTools(params object[] inputArr)
-{
-      object[] outArr = new object[inputArr.Length];
-      inputArr.CopyTo(outArr,0); //Цифра - с какого индекса копируем
-      return outArr;
-}
+// object[] UnivCopyArreyStandartTools(params object[] inputArr)
+// {
+//       object[] outArr = new object[inputArr.Length];
+//       inputArr.CopyTo(outArr,0); //Цифра - с какого индекса копируем
+//       return outArr;
+// }
 
 int[] testArr = Gen1DArray(40,1,50);
 Print1DArr(testArr);

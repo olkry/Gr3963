@@ -25,16 +25,16 @@ void Print1DArr(int[] arr)
 }
 
 //Метод замены элементов в массиве.
-void SwapArrey(int[] arr)
-{
-    int bufElem = 0;
-    for (int i = 0; i < arr.Length / 2; i++)
-    {
-        bufElem = arr[i];
-        arr[i] = arr[arr.Length - 1 - i];
-        arr[arr.Length - 1 - i] = bufElem;
-    }
-}
+// void SwapArrey(int[] arr)
+// {
+//     int bufElem = 0;
+//     for (int i = 0; i < arr.Length / 2; i++)
+//     {
+//         bufElem = arr[i];
+//         arr[i] = arr[arr.Length - 1 - i];
+//         arr[arr.Length - 1 - i] = bufElem;
+//     }
+// }
 
 //Метод создания нового и заполнением с конца входящего.
 int[] NewSwapArrey(int[] arr)
@@ -47,7 +47,7 @@ int[] NewSwapArrey(int[] arr)
     return outArr;
 }
 
-int[] testArrey = GenArray(123, 10, 100);
+int[] testArrey = GenArray(20, 10, 100);
 Print1DArr(testArrey);
 Console.WriteLine();
 //SwapArrey(testArrey);

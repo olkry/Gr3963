@@ -17,18 +17,18 @@ if (LineDay != null)
       string[] dayWeek = new string[7];
 
       //Назначаем ячейки
-      // dayWeek[0] = "понедельник";
-      // dayWeek[1] = "вторник";
-      // dayWeek[2] = "среда";
-      // dayWeek[3] = "четверг";
-      // dayWeek[4] = "пятница";
-      // dayWeek[5] = "суббота";
-      // dayWeek[6] = "воскресенье";
+      dayWeek[0] = "понедельник";
+      dayWeek[1] = "вторник";
+      dayWeek[2] = "среда";
+      dayWeek[3] = "четверг";
+      dayWeek[4] = "пятница";
+      dayWeek[5] = "суббота";
+      dayWeek[6] = "воскресенье";
 
-      // Console.WriteLine("Сегодня "+ dayWeek[day - 1]);
+      Console.WriteLine("Сегодня "+ dayWeek[day - 1]);
 
       //Вариант с подкачкой баз
-      string outDayOfWeek = System.Globalization.CultureInfo.GetCultureInfo("ru-RU").DateTimeFormat.GetDayName((DayOfWeek)Enum.GetValues(typeof(DayOfWeek)).GetValue(day));
-      Console.WriteLine(outDayOfWeek);
+      //string outDayOfWeek = System.Globalization.CultureInfo.GetCultureInfo("ru-RU").DateTimeFormat.GetDayName((DayOfWeek)Enum.GetValues(typeof(DayOfWeek)).GetValue(day));
+      //Console.WriteLine(outDayOfWeek);
 
 }
